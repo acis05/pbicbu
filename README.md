@@ -30,3 +30,6 @@ Versi awal belum memiliki autentikasi; jangan publikasikan data rahasia atau mem
 
 ## V3
 Mode default per tanggal menggunakan floating bar perubahan nilai aktual, bukan OHLC intrahari. Mode kelompok tetap OHLC. Regresi linear dan MA5 dihitung dari observasi terfilter.
+
+## V4 — Pure Candlestick
+Grafik tren hanya menampilkan candle dan wick, tanpa garis aktual, MA atau regresi. Default dua observasi per candle; tiga observasi tersedia untuk melihat rentang high/low lebih jelas. Mode per tanggal tetap merupakan perubahan antarobservasi, bukan OHLC intrahari. Analisis MA5 dan regresi tetap tersedia di bawah grafik.
