@@ -27,3 +27,6 @@ Versi awal belum memiliki autentikasi; jangan publikasikan data rahasia atau mem
 - Bullish/Bearish berdasarkan kemiringan regresi linear terhadap urutan observasi; Sideways jika perubahan garis regresi sepanjang rentang <= 2% rata-rata absolut. Minimal 3 observasi. Growth membandingkan awal dan akhir; tidak tersedia jika awal nol.
 - Support/resistance hanya minimum/maksimum historis, bukan prediksi. Grafik memakai Chart.js CDN (akses internet browser diperlukan).
 - Belum ada autentikasi; jangan membuka data rahasia ke publik.
+
+## V3
+Mode default per tanggal menggunakan floating bar perubahan nilai aktual, bukan OHLC intrahari. Mode kelompok tetap OHLC. Regresi linear dan MA5 dihitung dari observasi terfilter.
