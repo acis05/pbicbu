@@ -1,3 +1,7 @@
+# PBI V5 — Multi Indicator & Dual Trend Mode
+
+Pilihan Tampilkan Semua menampilkan empat panel terpisah dengan analisis masing-masing. Trend Garis Saja menampilkan nilai aktual per tanggal tanpa candle. Filter tanggal berlaku untuk semua panel.
+
 # Production Business Intelligence
 Dashboard Flask + Chart.js. Python 3.11+.
 
